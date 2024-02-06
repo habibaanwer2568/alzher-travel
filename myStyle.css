@@ -1,0 +1,84 @@
+nav {
+  width: 4000px;
+  height: auto;
+}
+body {
+    /* background-image: linear-gradient( black, rgb(28, 141, 28)); */
+    /* background: linear-gradient(to bottom, black 90% , rgb(28, 141, 28)); */
+    background: rgb(0,255,33);
+    background: linear-gradient(356deg, rgba(0,255,33,1) 2%, rgba(0,51,7,1) 25%, rgba(0,0,0,1) 50%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+}
+ul {
+    border-radius: 40px;
+    border-width: 5px;
+    border-color: rgb(28, 141, 28);
+    border-style: solid;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 100px 0px 60px;
+    padding: 10px 
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.right_image {
+    margin: 0;
+    width: 30%;
+}
+section {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #banner {
+    display: flex;
+  align-items: center;
+  font-size: 30px;
+  
+    
+  }
+  #about {
+    text-align: center;
+    margin: 200px;
+    padding: 50px;
+    font-size: 50px;
+    background-blend-mode: color-burn;
+
+  }
+  #contact {
+    text-align: center;
+    background-image: url(pattern.png);
+    background-blend-mode: color;
+    font-size: 30px;
+  }
+  #textarea {
+    display: block;
+    align-items: center;
+
+  }
+  #about , #contact {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    
+  }
+  
+  footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+  }
